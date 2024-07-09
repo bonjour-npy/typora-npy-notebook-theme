@@ -1,40 +1,49 @@
-# Typora 主题：npy-notebook theme
+# Typora Theme: npy-notebook theme
 
-该主题基于 [Gitbook Theme](https://theme.typora.io/theme/Gitbook/) 并加入个人喜好因素修改而来，Gitbook Theme 根据 [GPL 3.0](https://github.com/h16nning/typora-gitbook-theme?tab=GPL-3.0-1-ov-file) 开源。
+[English](./README.md) | [简体中文](./README-zh_CN.md)
 
-## 更新日志 📚
+This theme is a derivative of the [Gitbook Theme](https://theme.typora.io/theme/Gitbook/), customized with personal touches. Gitbook Theme is open-sourced under the [GPL 3.0](https://github.com/h16nning/typora-gitbook-theme?tab=GPL-3.0-1-ov-file).
 
-- [x] 2024.07.08：应亲爱的[譞譞同学（@Jacklouis0425）](https://github.com/Jacklouis0425)的要求，考虑到部分高手都喜欢用暗黑模式，因此新增了 Dark Mode，README 文档已相应更新。
+## Changelog 📚
 
-## 安装方法 🔨
+- [x] 2024.07.08：At the request of [@Jacklouis0425](https://github.com/Jacklouis0425), and considering that many users prefer to use the dark mode, I have added the Dark Mode feature. The README documentation has been updated accordingly.
 
-### 安装 Typora 软件
+## Installation 🔨
 
-根据[官网](https://typora.io/)教程完整 Typora 软件的安装，许可证的激活与否不影响主题生效以及正常使用。
+### Install the Typora application
 
-### 安装主题
+Please refer to [the installation guidance from the official website of Typora](https://typora.io/), activating or not activating the license does not affect the theme from taking effect and being used normally.
 
-本仓库为 Typora 用户提供了明、暗两种主题，css 文件分别为 `npy-notebook.css` 以及 `npy-notebook-dark.css`。
+### Install this theme
 
-1. 打开 Typora 后进入设置的`主题`页面。
+This repository provides two themes for Typora users: light and dark. The CSS files are named `npy-notebook.css` and `npy-notebook-dark.css`, respectively.
 
-   ![image-20240708113741394](https://raw.githubusercontent.com/bonjour-npy/Image-Hosting-Service/main/typora_imagesimage-20240708113741394.png)
+1. Launch Typora and enter the `Theme` page of the Menu.
 
-2. 点击`打开主题文件夹`。
+   ![image-20240709112348566](https://raw.githubusercontent.com/bonjour-npy/Image-Hosting-Service/main/typora_imagesimage-20240709112348566.png)
 
-3. 将仓库中 `src` 目录中或 `Release` 中下载的 zip 压缩包中的全部文件（`npy-notebook` 文件夹以及 `npy-notebook.css`、`npy-notebook-dark.css` 文件）复制、粘贴至上一步打开的主题文件夹目录中。
+2. Click the button `Open Theme Folder`。
 
-   `npy-notebook` 目录中包含了主题生效所需的字体及配置文件，各 css 文件中是主题其它的定义配置文件。
+3. **Copy all of the files** from the `npy-notebook` folder, the `npy-notebook.css` and `npy-notebook-dark.css` files into the **Typora Theme Folder**.
 
-4. 重启 Typora 程序，在设置的主题选项中选择  `NpyNotebook`  或 `NpyNotebookDark` 主题即可看到生效。
+   - If you are using the source code from the repository, you can find the files in the `src` directory.
+   - If you are using the zip file from the Releases page, you can extract the files from the zip file.
 
-## 特性说明 ✨
+   **The `npy-notebook` folder** contains the fonts and configuration files that are required for the themes to work.
 
-### 增加了标题自动编号
+   **The `npy-notebook.css` and `npy-notebook-dark.css` files** contain the rest of the configuration files for the themes.
 
-使用 Markdown 的标题语法，当完成键入并敲击回车后，主题会自动根据当前标题的等级以及所在位置，在键入字体前方加入自动编号，编号从 2 级标题 H2 作为自动编号的 1 级序号。如第一个 2 级标题序号是 `1`，其下的第一个 3 级标题序号是 `1.1`，第二个 2 级标题序号是 `2`。
+4. Simply restart Typora and you can select the `NpyNotebook` or `NpyNotebookDark` theme from the `Themes` page.
 
-效果如下图所示。
+## Features Overview ✨
+
+### Automatic Title Numbering
+
+Leveraging Markdown's title syntax, upon completing input of the title and pressing Enter, the theme will automatically add sequential numbers in front of the title based on the current title level and position. 
+
+Numbering starts from level 2 titles (H2) as the first level of the automatic numbering scheme. For instance, the first level 2 title will be numbered as `1`, the first level 3 title will be numbered as  `1.1`, and the number of the second level 2 title will be `2`.
+
+See the figure below for the results. 
 
 ![image-20240708114525906](https://raw.githubusercontent.com/bonjour-npy/Image-Hosting-Service/main/typora_imagesimage-20240708114525906.png)
 
@@ -88,23 +97,23 @@
   }
 ```
 
-### 字体
+### Fonts
 
-#### 字体大小调整
+#### Font size
 
-全局字体从 16 px 调整为 18 px，书写段落 body 字体从 0.95 rem 调整为 1 rem。
+The default global font size has been increased from 16px to 18px. The body font size for writing paragraphs has been increased from 0.95rem to 1rem.
 
-#### 字体的选择
+#### Font family
 
-当你的笔记需要进行中英文混排时，选择经典的有衬线（serif）字体家族搭配总不会让你失望——宋体与新罗马。
+When you need to mix Chinese and English in your notes, you can't go wrong with the classic serif font family combo—SimSun and Times New Roman.
 
 ```css
 font-family: "Times New Roman", serif;
 ```
 
-当然，不排除大部分同学对于网站 UI 等电子阅读的偏好是无衬线字体（sans-serif），这时选择来自 iOS、iPadOS 以及 macOS 等的苹方与 SF Pro 字体进行搭配也是非常好的选择。
+Of course, many users prefer sans-serif fonts for website UIs and digital reading. In this case, pairing PingFang (for Chinese) with SF Pro (for English) from iOS, iPadOS, and macOS is an excellent choice.
 
-本仓库为以上两种有衬线与无衬线字体搭配均提供了选择，默认为有衬线搭配。当你需要切换为无衬线字体时，对主题文件 `npy-notebook.css` 进行以下修改即可。
+This repository offers options for both serif and sans-serif font pairings mentioned above. The default setting is the serif combination. If you want to switch to sans-serif fonts, you can make the following changes to the theme file `npy-notebook.css`.
 
 ```css
 /* 将下面有衬线字体代码行注释，并取消无衬线字体代码行注释。 */
@@ -112,7 +121,7 @@ font-family: "Times New Roman", serif;
 /* --font-family: 'SF Pro Display Medium', 'PingFangSC Medium', sans-serif; */
 ```
 
-### 标题样式调整
+### Modified the style of headings
 
 ```css
 /* 标题样式进行统一调整，修改 1 级标题分割线像素厚度，修改各级标题段前后间距 */
@@ -168,16 +177,16 @@ h6 {
 }
 ```
 
-### 代码块高亮颜色调整
+### Modified the highlighting color of code blocks
 
 ```css
     --codeboxes: #373737;
     --codeboxes-lighter: #646464;
 ```
 
-### 反引号高亮颜色调整
+### Modify the highlighting color of backticks
 
-反引号高亮直接使用了 `borders` 的颜色，因此修改了暗黑主题下的 `borders` 颜色，并修改了反引号高亮的字体和字号。
+Since the backtick highlighting directly used the `borders` color, we modified the `borders` color for the dark theme and adjusted the font and font size for backtick highlighting.
 
 ```css
 /* 修改反引号高亮的样式 */
@@ -192,14 +201,12 @@ code {
 }
 ```
 
-### Gitbook 主题的其他特性
+### Other features of the [Gitbook Theme](https://theme.typora.io/theme/Gitbook/)
 
-[Gitbook Theme](https://theme.typora.io/theme/Gitbook/) 的其他特性请参考其官方网站。
+Please refer to [the official Gitbook Theme website](https://theme.typora.io/theme/Gitbook/).
 
-## 讨论与交流 👍
+## Feedback 👍
 
-由于 css 样式大部分继承自 [Gitbook Theme](https://theme.typora.io/theme/Gitbook/)，因此大概率没法直接上架 Typora 官方主题商店：[Typora Themes Gallery](https://theme.typoraio.cn/)。
+If you encounter any issues or bugs while using this, I'd love to hear from you!
 
-不过大家如果在使用过程中遇到什么问题或者 bug，非常欢迎你们在仓库的 [Issues](https://github.com/bonjour-npy/typora-npy-notebook-theme/issues) 或 [Pull requests](https://github.com/bonjour-npy/typora-npy-notebook-theme/pulls) 环节一起讨论交流。
-
-感谢[萱萱同学（@xuanx33）](https://github.com/xuanx33)的陪伴和支持，希望你可以认真做笔记，祝学习和工作顺利。
+Feel free to join the discussion in the repository's [Issues](https://github.com/bonjour-npy/typora-npy-notebook-theme/issues) section or contribute through [Pull requests](https://github.com/bonjour-npy/typora-npy-notebook-theme/pulls).
