@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'PingFangSC Medium';
     src: local('PingFangSC-Medium'), url('./PingFangSC-Medium.ttf') format('truetype');
 }
@@ -6,11 +6,11 @@
 @font-face {
     font-family: 'SF Pro Display Medium';
     src: local('SF-Pro-Display-Medium'), url('./SF-Pro-Display-Medium.otf') format('opentype');
-}
+} */
 
 @font-face {
     font-family: 'PingFangSC Regular';
-    src: local('PingFangSC-Regular'), url('./PingFangSC-Regular.ttf') format('truetype');
+    src: local('PingFangSC-Regular'), url('./PingFangSC-Regular.otf') format('opentype');
 }
 
 @font-face {

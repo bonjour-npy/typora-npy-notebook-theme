@@ -6,7 +6,8 @@ This theme is a derivative of the [Gitbook Theme](https://theme.typora.io/theme/
 
 ## Changelog 📚
 
-- [x] 2024.07.08：At the request of [@Jacklouis0425](https://github.com/Jacklouis0425), and considering that many users prefer to use the dark mode, I have added the Dark Mode feature. The README documentation has been updated accordingly.
+- [x] 2024.07.16: Modify the font source file of PingFang SC.
+- [x] 2024.07.08: At the request of [@Jacklouis0425](https://github.com/Jacklouis0425), and considering that many users prefer to use the dark mode, I have added the Dark Mode feature. The README documentation has been updated accordingly.
 
 ## Installation 🔨
 

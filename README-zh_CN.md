@@ -6,6 +6,7 @@
 
 ## 更新日志 📚
 
+- [x] 2024.07.16：修改了 PingFang SC 字体源文件。
 - [x] 2024.07.08：应亲爱的[譞譞同学（@Jacklouis0425）](https://github.com/Jacklouis0425)的要求，考虑到部分高手都喜欢用暗黑模式，因此新增了 Dark Mode，README 文档已相应更新。
 
 ## 安装方法 🔨
